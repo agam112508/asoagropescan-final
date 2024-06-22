@@ -1,0 +1,49 @@
+.footer {
+    background-color: #2D6A4F;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .footer .col {
+    flex: 1;
+    margin: 0px;
+    text-align: center;
+  }
+  
+  .footer .logoAso {
+    max-width: 150px;
+  }
+  
+  .footer .col img {
+    max-width: 80px;
+    margin: 5px;
+  }
+  
+  .footer .col i {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #95D5B2;
+    transition: color 0.3s;
+  }
+  
+  .footer .col i:hover {
+    color: #95D5B2;
+  }
+  
+  span{
+    color: #95D5B2;
+  }
+
+  .footer .creditos {
+    margin-top: 0;
+    font-size: 14px;
+    color: #95D5B2;
+  }
+  

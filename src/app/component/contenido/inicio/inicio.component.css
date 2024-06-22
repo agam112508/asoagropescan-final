@@ -1,0 +1,134 @@
+img{
+    width: 100%; 
+    height: auto;
+}
+.card{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+section{
+    padding-top: 8vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    background: linear-gradient(135deg, #e1e7e4, #7ABF96);
+    
+    width: 100%;
+    color: white;
+}
+
+h3{
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    line-height: 1.5em;
+}
+
+.txtbienvenido {
+    margin: 4rem;
+    margin-bottom: 4rem;
+    margin-top: 5rem;
+    
+
+}
+
+.inicios{
+    margin: 4rem;
+    margin-bottom: 4rem;
+    margin-top: 5rem;
+}
+
+.card-title.valores{
+    font-size: 20px;
+    padding-bottom: 0;
+
+}
+.card-title{
+    font-size: 16px;
+    color: #01497C;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 1.5rem;
+    font-family: 'Lora', serif;
+
+}
+
+
+.valores-1{
+
+    
+    padding-left: 11vh;
+}
+
+.card-text{
+    
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+    color: #01497C;
+    font-weight:500;
+    line-height: 1.9em;
+    padding-bottom: 1.5rem;
+    text-align: justify;
+}
+.card-text.descripcion{
+    
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+    color: #01497C;
+    font-weight:450;
+    line-height: 1.9em;
+    text-align: center;
+    padding-top: 0;
+    padding-left: 4vh;
+    padding-right: 4vh;
+}
+
+.video-desc{
+    margin-bottom: 5rem;
+}
+/* img.gif{
+    width:80%;
+    height: 80%;
+    margin-top: 2.5rem;
+    margin-left: 0.5rem;
+} */
+
+.card{
+    background-color: #cde6d4;
+    box-shadow: #2D6A4F 0 10px 20px 2.5px ;
+    width: 10rem;
+    height: 8rem;
+    transition: transform 0.2s ease;
+}
+
+
+.card:hover{
+    transform: scale(1.05);
+    background-color: #9acfb7;
+    
+}
+
+
+.col{
+    text-align: center;
+    justify-content: center;
+}
+
+.size-6{
+    height: 20px;
+    width: 20px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 8rem;
+  }
+  
+  iframe {
+    max-width: 100%;
+    height: 20rem;
+  }
+  
