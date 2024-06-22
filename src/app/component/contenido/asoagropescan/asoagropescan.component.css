@@ -1,0 +1,61 @@
+section{
+    padding-top: 4.5rem;
+    background-color: #d7ebdd;
+}
+
+.project-card {
+    transition: transform 0.2s;
+    text-align: center;
+    background-color: #d7ebdd;
+    
+  }
+
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+
+  .project-header {
+    font-family: 'Lora', serif;
+    background: #2D6A4F;
+    color: #d7ebdd;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .project-footer {
+    background: #d7ebdd;
+    text-align: justify;
+    border-radius: 0 0 5px 5px;
+    padding: 12px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .project-section {
+    background: linear-gradient(to bottom, #61A5C2, #ffffff);
+    
+    
+  }
+
+  .project-title {
+    font-family: 'Lora', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .btn-custom {
+    background-color: #28a745;
+    color: white;
+  }
+
+  .btn-custom:hover {
+    background-color: #218838;
+  }
+
+  .project-body{
+    padding: 12px;
+    font-family: 'Roboto', sans-serif;
+  }

@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './asoagropescan.component.css'
 })
 export class AsoagropescanComponent {
-
+  imgacuicultura : string = 'assets/images/acuicultura.png';
 }

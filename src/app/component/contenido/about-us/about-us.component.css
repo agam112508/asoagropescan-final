@@ -1,0 +1,149 @@
+section{
+    background: linear-gradient(135deg, #e1e7e4, #7ABF96);
+    padding-top: 6vh;
+}
+
+/* Secciones */
+.mision-vision{
+    
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.valores{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+
+}
+
+
+.miembros{
+    
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.card{
+    margin: 10px;
+    transition: transform 0.2s ease;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+
+.card.mv{
+    background-color: aquamarine;
+    font-family: 'Roboto', sans-serif;
+    height: 93%;
+    box-shadow: 0 8px 15px -5px rgba(1, 73, 124, 0.7); /* Sombra en la parte inferior */
+}
+
+.card.border-success{
+    height: 100%;
+}
+
+
+.row{
+        margin: 50px;
+        
+}
+.mv .card-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #01497C;
+    text-align: justify;
+}
+.card-text{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.mv.card-title{
+    font-family: 'Lora', serif;
+    color: #01497C;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.card-title{
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.card-header{
+    background-color: #2D6A4F;
+    color: #2D6A4F;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.col.presidente{ 
+    text-align: center;
+}
+
+
+
+.row.second{
+    margin-left: 230px;
+}
+
+.titulo-valores{
+    font-family: 'Lora', serif;
+    text-align: center;
+    color: #2D6A4F;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.descripcion-valores{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    color: #01497C;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 3rem;
+
+}
+
+.accordion-item{
+    background: linear-gradient(135deg, #e1e7e4, #7ABF96);
+}
+
+.accordion-button{
+    font-family: 'Lora', serif;
+    color: #2D6A4F;
+    font-weight: 600;
+    background: linear-gradient(135deg, #e1e7e4, #7ABF96);
+}
+.accordion-collapse{
+    font-family: 'Roboto', sans-serif;
+    color: #01497C;
+    background-color: #cfe0de;
+}
+
+.row .miembro{
+    height: 26rem;
+}
+
+.row .col{
+    display: flex;
+    justify-content: center;
+}
+
+.card .btn{
+    font-family: 'Lora', serif;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    height: 14rem;
+
+}

@@ -1,0 +1,62 @@
+
+.form-group {
+    padding: 0.5rem;
+    text-align: center;
+}
+.formulario {
+    background: linear-gradient(to bottom, #78D5E3, #4390AE), ;
+    background-size: cover;
+    position: relative;
+    background-color: #61a5c277;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    width: 100%;
+       display: flex;
+    justify-content: center;
+}
+
+.card{
+    
+    border-radius:8px;
+    box-shadow:0 0 40px -10px #2D6A4F;
+}
+
+.card-title{
+    color: #2D6A4F;
+}
+
+label {
+    margin-bottom: 1vh;
+    
+}
+.title-lavel{
+    font-size: 16px;
+    color: #2D6A4F;
+}
+
+::placeholder{
+    font-size: 14px;
+    color: #2D6A4F;
+}
+
+.btn {
+    margin: 1vh;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    color: #2D6A4F;
+    text-align: center;
+    font-size: 18px;
+}
+
+label {
+    text-align: center;
+    color: #2D6A4F;
+    font-size: 16px;
+
+}

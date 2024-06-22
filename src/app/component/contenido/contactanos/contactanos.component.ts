@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './contactanos.component.css'
 })
 export class ContactanosComponent {
+  imagePath: string = 'assets/images/bk-aboutUs.jpg';
 
 }
