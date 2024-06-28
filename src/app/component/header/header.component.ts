@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-  imagePath: string = 'assets/images/logo_png.png';
+  imagePath = 'assets/images/logo_png.png';
   isOpen = false;
 
   toggleMenu() {
